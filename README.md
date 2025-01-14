@@ -5,11 +5,11 @@ The pipeline showcases essential data transformation and data aggregation techni
 ________________________________________
 
 Project Objectives:
-	Ingest raw sales data from a CSV file.
-	Clean and transform the data (convert string values to appropriate data types).
-	Perform aggregations to calculate total sales per product.
-	Save the cleaned and aggregated data as Delta Tables and CSV files for reporting.
-	Handle large-scale data processing using Apache Spark.
+•	Ingest raw sales data from a CSV file.
+•	Clean and transform the data (convert string values to appropriate data types).
+•	Perform aggregations to calculate total sales per product.
+•	Save the cleaned and aggregated data as Delta Tables and CSV files for reporting.
+•	Handle large-scale data processing using Apache Spark
 
 ________________________________________
 
@@ -44,32 +44,38 @@ o	Saves the cleaned and aggregated data to both Delta Tables and CSV files.
 ________________________________________
 
 Example Output:
+
 Cleaned Sales Data:
 
- 
+![image](https://github.com/user-attachments/assets/53dce715-bda5-4103-b5ea-b4310164d72a)
+
 
 Aggregated Sales Data:
 
- 
+![image](https://github.com/user-attachments/assets/4c3d0c1f-81ce-4c33-8dc0-562faeeb873f)
 
+ 
 ________________________________________
 
 How to Run the Project Locally:
 
 Step 1: Clone the Repository
- 
+git clone https://github.com/Anudeep-ui-tech/Sales-Data-Pipeline.git
+cd Sales-Data-Pipeline 
 
 Step 2: Install Dependencies
 Make sure you have Apache Spark and Delta Lake configured in your local environment.
 
 Step 3: Run the ETL Pipeline
+python data_pipeline.py
  
- Key Features:
-End-to-End ETL Pipeline
-Data Cleaning and Transformation
-Data Aggregation
-Delta Lake Integration
-Scalable and Efficient
+Key Features:
+•	End-to-End ETL Pipeline
+•	Data Cleaning and Transformation
+•	Data Aggregation
+•	Delta Lake Integration
+•	Scalable and Efficient
+
 
 ________________________________________
 
